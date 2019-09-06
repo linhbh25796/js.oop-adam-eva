@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adam eva</title>
+    <script src="Apple.js"></script>
+    <script src="Human.js"></script>
+</head>
+<body>
+<div>
+    Apple:<p id="appleRmn">  </p>
+    <p><b>Adam</b></p>
+    <button onclick="speaking(adam)">Speak</button>
+    <button onclick="eatApple(adam)">Eat</button>
+    <button onclick="checkApple(adam)">Check apple remaining</button>
+    <button onclick="checkWeight(adam)">Check Weight</button>
+</div>
+<br>
+<hr>
+<br>
+<div >
+    <p><b>Eva</b></p>
+    <button onclick="speaking(eva)">Speak</button>
+    <button onclick="eatApple(eva)">Eat</button>
+    <button onclick="checkApple(eva)">Check apple remaining</button>
+    <button onclick="checkWeight(eva)">Check Weight</button>
+</div>
+<script>
+    document.getElementById("appleRmn").innerHTML = apple.getWeight();
+</script>
+
+</body>
+</html>
